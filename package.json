@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "nightwatch": "^0.9.21",
+    "babel-register": "^6.26.0",
+    "chromedriver": "^2.44.0",
+    "selenium-server-standalone-jar": "^3.141.5"
+  },
+  "scripts": {
+    "e2e": "nightwatch -c test/e2e/globals.json"
+  }
+}
